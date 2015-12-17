@@ -1,0 +1,11 @@
+<h1> Your message has been sent!</h1>
+<h3> A review of your message is below:</h3>
+<br/>
+	<p style="text-align:center;">Hi this is <%= params["name"] %> and I am reaching out to discuss: <b><%= params["subject"] %></b>.</p>
+	<p style="text-align:center;"> You can contact me through my email: <%= params["email"] %>, or by phone: <%= params["phone"] %>.</p>
+	<p style="text-align:center; font-weight:bold;"><%= params["name"] %>'s Message:</p>
+	<p style="text-align:center;"><%= params["message"] %></p>
+<br/>
+<br/>
+<h3>Thank you for reaching out!</h3>
+<h3 style="font-size:12pt;">We will get back to you as soon as possible!</h3>
